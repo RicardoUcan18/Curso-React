@@ -1,6 +1,6 @@
 test('Pruebas', () => { 
-  if (0 === 0) {
-    throw new Error("NO puede ser 0");
-    
-  }
+  const mensaje1 = 'Hola mundo';
+  const mensaje2 = mensaje1.trim();
+
+  expect(mensaje1).toBe(mensaje2);
 });
